@@ -18,7 +18,6 @@ import java.util.List;
 @Entity
 @Table(name = "customer", schema = "fsweb")
 public class Customer {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotNull

@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "account", schema = "fsweb")
 public class Account {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotNull
